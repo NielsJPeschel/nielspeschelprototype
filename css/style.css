@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: "CustomFont";
+    src: url(../fonts/Gruppo-Regular.ttf);
+}
+
+body{
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    font-family: 'CustomFont';
+    
+    /* font-family: Helvetica, Sans-Serif; */
+    background-color: black;
+}
+
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    /* background-image: linear-gradient(to bottom, #434343 0%, black 100%); */
+}
+
+.intro{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.intro h1{
+    position: absolute;
+
+    top: 40%;
+    left: 50%;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 1)
+}
+
+.content-wrapper{
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    height: 1px;
+    width: 0px;
+    /* background-color: white; */
+    background: white;
+    overflow: hidden;
+}
+
+.content{
+    position: fixed;
+    opacity: 0;
+    background: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.content section{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    position: absolute;
+
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header hr{
+    position: absolute;
+    top: 50%;
+    left: 68%;
+    height: 1px;
+    width: 32%;
+    background: white;
+    border: none;
+}
+
+.title{
+    position: absolute;
+    left: 50%;
+    top: calc(50% + 9px);
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 50px;
+}
+
+.title h1
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 25pt;
+    font-weight: 100;
+    letter-spacing: 10pt;
+    text-transform: uppercase;
+    color: white;
+}
+
+.title ul{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    white-space: nowrap;
+}
+.title li{
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5pt;
+    font-size: 10pt;
+    padding-right: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.title a{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.design-wrapper{
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 100%;
+    height: 1px;
+    background: white;
+}
+
+.designer{
+    opacity: 0;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: white;
+}
+
+
+
+.design_ex{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 25%;
+}
+
+.design_ex img{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 60%;
+    left: 5%;
+    width: 90%;
+}
+.design_ex p{
+    position: absolute;
+    color: white;
+    opacity: 0;
+    transform: translateY(-50%);
+    top: 60%;
+    width: 90%;
+    left: 5%;
+    font-family: Helvetica, Sans-Serif;
+}
+
+.panelhover{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0;
+
+}
+
+.despanel{
+    left: 0;
+    background: white;
+}
+
+.despanel h1{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    /* transform: translate(0, -50%); */
+    text-transform: uppercase;
+}
+.despanel{
+    opacity: 1;
+}
+
+.caramia{
+    left: 25%;
+    background: url("../img/caramia/caramiabg.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.pmsalty{
+    left: 50%;
+    background: url("../img/pmsalty/pmsaltybg.JPG");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.pd
+{
+    left: 75%;
+    background: rgb(32, 32, 32);
+}
